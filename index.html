@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tsuki's | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <h1>Tsuki</h1>
+  <p>Developer | Gamer</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <button class="toggle" onclick="toggleMode()">Toggle Text Color</button>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I make Games or Game exploits</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Project Tsuki</h3>
+      <p>My first exploit currently privated</p>
+      <a href="https://github.com/burntout67-debug/Project-Tsuki/tree/main" target="_blank" class="btn">View</a>
+    </div>
+
+    <div class="card">
+      <h3>Project Ultrakill</h3>
+      <p>Basically a "Project Tsuki" V2 that I'm currently working on</p>
+      <a href="https://github.com/burntout67-debug/Project-Ultrakill" target="_blank" class="btn">View</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: xrahxd@outlook.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Tsuki</p>
+</footer>
+
+<script>
+  function toggleMode() {
+    document.body.classList.toggle("dark");
+  }
+</script>
+
+</body>
+</html>
